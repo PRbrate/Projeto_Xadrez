@@ -12,6 +12,12 @@ namespace tabuleiro
             this.coluna = coluna;
         }
 
+        public void definirValores(int linhas, int coluna)
+        {
+            this.linha = linhas;
+            this.coluna = coluna;
+        }
+
         public override string ToString()
         {
             return linha + ", " + coluna;
